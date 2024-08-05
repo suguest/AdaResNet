@@ -6,6 +6,8 @@ However, in the process of skip connections, the skipped input (SI) is directly 
 
 In this project, we propose AdaResNet (Auto-Adapting Residual Network), which automatically adapts the ratio of SI and PD with respect to the training data. We introduce a variable, β, to represent this ratio. This variable is adjusted automatically during the backpropagation process, allowing it to adapt to the training data rather than remaining fixed. The verification results show that AdaResNet achieves higher accuracy and faster training speeds.
 
+For any advice to improve this project or questions about this porject, please contact suguest@126.com or suhong@cuit.edu.cn.
+
 Verification:
   We use the cifar10 test data to do the verificaion.
   
