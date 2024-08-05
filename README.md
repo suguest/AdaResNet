@@ -1,4 +1,4 @@
-# AdaResNet AdaResNet: Enhancing ResNet with Adaptive Weighting of Residual Learning and Residual Blocks
+# AdaResNet: Enhancing ResNet with Adaptive Weighting of Residual Learning and Residual Blocks
 
 In very deep networks, gradients can become very small during backpropagation, making it difficult to train the early layers. ResNet (Residual Network) addresses this by allowing gradients to flow directly through the network via skip connections, facilitating the training of much deeper networks. 
 
