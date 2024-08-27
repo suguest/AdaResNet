@@ -1,4 +1,4 @@
-# AdaResNet: Enhancing ResNet with Adaptive Weighting of Input Data and Processed Data
+# AdaResNet: Enhancing ResNet with Adaptive Weighting of Input Data and Processed Data [1]
 
 In very deep networks, gradients can become very small during backpropagation, making it difficult to train the early layers. ResNet (Residual Network) addresses this by allowing gradients to flow directly through the network via skip connections, facilitating the training of much deeper networks. 
 
@@ -89,3 +89,5 @@ Method. We compare the ResNet50 and AdaResNet based on Resnet50 to comparison, n
         
         return models.Model(inputs, outputs)
  
+
+[1] Su H. AdaResNet: Enhancing Residual Networks with Dynamic Weight Adjustment for Improved Feature Integration[J]. arXiv preprint arXiv:2408.09958, 2024.
